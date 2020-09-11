@@ -8,7 +8,8 @@ export enum ChainId {
   ROPSTEN = 3,
   RINKEBY = 4,
   GÖRLI = 5,
-  KOVAN = 42
+  KOVAN = 42,
+  NEWCHAINTEST = 1007
 }
 
 export enum TradeType {
@@ -21,8 +22,11 @@ export enum Rounding {
   ROUND_HALF_UP,
   ROUND_UP
 }
+// uniswap on ethereum
+// export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
 
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+// newswap on newchain testnet
+export const FACTORY_ADDRESS = '0x0Fe517c736b0be43Ce74468C7F8AC7c2092422c5'
 
 export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
 
