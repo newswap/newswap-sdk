@@ -28,7 +28,11 @@ export enum Rounding {
 // newswap on newchain testnet
 export const FACTORY_ADDRESS = '0x0Fe517c736b0be43Ce74468C7F8AC7c2092422c5'
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+// original
+// export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+
+// newchain
+export const INIT_CODE_HASH = '0xf75b0469cac2542bd588416c4d347012058f569efed07b6ecf531f5076f5a3c9'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
