@@ -9,7 +9,8 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  NEWCHAINTEST = 1007
+  NEWCHAINTEST = 1007,
+  NEWCHAINMAIN = 1012
 }
 
 export enum TradeType {
@@ -25,14 +26,14 @@ export enum Rounding {
 // uniswap on ethereum
 // export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
 
-// newswap on newchain testnet
-export const FACTORY_ADDRESS = '0xCe59bbCFe029789af935DFF388Fb65771e2845B2'
+// newswap on newchain testnet and mainnet
+export const FACTORY_ADDRESS = '0x723913136a42684B5e3657e3cD2f67ee3e83A82D'
 
 // original
 // export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
 
 // newchain
-export const INIT_CODE_HASH = '0x9e412b0c43545320c5ffd072573387d3d24b01790dea161731c0e56efd7a76a2'
+export const INIT_CODE_HASH = '0x3e150cc7a7a4cb1c7b61edd8b86f1bcab502aca9cab4d0f1d1e98793923a5cf6'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
